@@ -19,6 +19,8 @@ const style = {
   p: 4,
 };
 
+// The 1st 4 functions are from Material/Ui, and the other basically handle whatever their names says
+
 export default function BasicModal(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);

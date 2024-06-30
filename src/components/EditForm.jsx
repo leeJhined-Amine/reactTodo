@@ -1,7 +1,5 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { CiEdit } from "react-icons/ci";
 
@@ -16,6 +14,8 @@ const style = {
   boxShadow: 24,
   p: 4,
 };
+
+// The 1st 3 function are from material/Ui(their use is obvious), the 4th handle the submit, it basically finds the element that we edited and replace it with the new edit.
 
 export default function BasicModal2(props) {
   const [open, setOpen] = React.useState(false);

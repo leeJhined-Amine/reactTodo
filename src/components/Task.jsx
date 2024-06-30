@@ -4,6 +4,10 @@ import { RiCheckboxCircleLine } from "react-icons/ri";
 import { MdDelete } from "react-icons/md";
 import BasicModal2 from "./EditForm";
 
+// The 1st function handles the check button
+// The 2nd function handles the edit action, it passes the new task to App.jsx
+// The 3rd function handles the delete action, it finds the element that we want to delete and update the tasks list
+
 function Task(props) {
   const [checked, setChecked] = useState(false);
 
